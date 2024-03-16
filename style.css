@@ -1,34 +1,21 @@
-@charset "UTF-8"
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meus objetivos do ano</title>
+    <link rel="stylesheet" href="style.css">
 
-*{font-family: arial,helvetiva,sans-seri;}
+@import url('https://fonts.googleapis.com/css?family=Chakra+Petch:wght@400;700&display=swap');
 
-
-body{
-    background-image: linear-gradient(to right,#3F3CA6,#6F73BF);
-
-main{background-color: white-space;
-    width:1000px;
-    padding:10px;
-    box-shadow:10px 10px 10px black;/* sombra*/
-    margin:auto;
-    border-radius:10px ;}
-
-
-    #idnum1{
-        background-color: blue;
-        height: 100px;
-        padding: 5px;
-        border-radius: 10px;}
-
-        h1{
-            color: orangered;
-            text-align: center;
-            font-size: 10px;}
-            
-            h2{
-                color: orange;}
-
-p{
-    text-align: justify;
+:root {
+  --cor-de-fundo: #161618;
+  --verde: #6FFF57;
+  --branco: #FFFFFF;
+  --botao-ativo: #3A375E;
+  --botao-inativo: rgba(58, 55, 94, 0.5);
+  --texto-fundo: rgba(58, 55, 94, 0.3);
 }
 
+body {
+  background-color: var(--cor-de-fundo);
+  color: var(--branco);
+  font-family: 'Chakra Petch', sans-serif;
+}
